@@ -15,21 +15,13 @@ div {
 	border: solid;
 	border-width: 1px;
 	margin: .5em;
-	
-
 }
 
 ul li {
 	align-content: center;
 	list-style-type: none;
-
-	
 }
-div ul li {
-	
-}
-
-p {
-	
-
+img {
+	width: 35vw;
+	height: auto;
 }

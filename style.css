@@ -1,0 +1,35 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: 1fr;
+	margin: 1em;
+	
+}
+
+div {
+	background-color: yellow;
+	border: solid;
+	border-width: 1px;
+	margin: .5em;
+	
+
+}
+
+ul li {
+	align-content: center;
+	list-style-type: none;
+
+	
+}
+div ul li {
+	
+}
+
+p {
+	
+
+}

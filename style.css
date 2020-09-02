@@ -133,4 +133,12 @@ footer div {
 	padding: 10px;
 }
 
+@media only screen and (max-width: 600px) {
+	img {
+		width: 90%;
+		height: auto;
+	}
+  }
+  
+
 /*.revenue-source .Top-10 .Other-Elon ol*/

@@ -3,25 +3,134 @@
 	padding: 0px;
 }
 
-.grid {
-	display: grid;
-	grid-template-columns: 1fr;
-	margin: 1em;
-	
+.container {
+	display: flex;
+	flex-direction: column;
+	margin: 1em;	
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	flex-grow: 1;
+	padding: 10px;
+}
+.about {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	flex-grow: 1;
+	width: 60vw;
+	height: auto;
+	align-items: center;
+	font-size: 1.5rem;
+	padding: 10px;
+}
+.about p {
+	text-align: center;
 }
 
 div {
-	background-color: yellow;
+	background-color: #f5f5dc;
 	border: solid;
 	border-width: 1px;
-	margin: .5em;
 }
 
 ul li {
 	align-content: center;
-	list-style-type: none;
+	/*list-style-type: none;*/
 }
 img {
 	width: 35vw;
 	height: auto;
 }
+.Nono1 {
+	display: flex;
+	border-radius: 30%;
+	padding: 10px;
+}
+
+.moat {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 10px;
+
+}
+.moat-content {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	flex-grow: 2;
+	width: 58vw;
+	height: auto;
+	padding: 10px;
+}
+.moat-business, .revenue-source,.Top-10, .Other-Elon {
+	font-weight: 700;
+	padding-bottom: 10px;
+	font-size: 1.2em;
+}
+
+.moat-content ul li {
+	padding-left: 1.5em;
+	list-style-type: none;
+
+}
+.revenue {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding: 10px;
+}
+.revenue-content {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	flex-grow: 1;
+	padding: 10px;
+}
+
+.revenue-content ul li {
+	padding-left: 1.5em;
+	list-style-type: none;
+
+}
+.main_content {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding-left: 1.5em;
+	padding: 10px;
+
+}
+.main_content ul li {
+	padding-left: 1.5em;
+	list-style-type: none;
+
+}
+.others {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	flex-grow: 1;
+	width: 45vw;
+	padding: 10px;
+
+}
+.top10FUD {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	flex-grow: 1;
+	width: 45vw;
+	padding: 10px;
+
+}
+
+footer div {
+	padding: 10px;
+}
+
+/*.revenue-source .Top-10 .Other-Elon ol*/

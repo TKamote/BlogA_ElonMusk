@@ -8,7 +8,7 @@
 .container {
 	display: flex;
 	flex-direction: column;
-	margin: 1em;	
+	margin: .5em;	
 }
 
 .header {
@@ -22,6 +22,8 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	min-height: 450px;
+	width: auto;
+	border-radius: 10px;
 }
 .about {
 	display: flex;
@@ -48,7 +50,7 @@ img {
 }
 .Nono1 {
 	display: flex;
-	border-radius: 30%;
+	border-radius: 20%;
 	padding: 10px;
 }
 
@@ -141,9 +143,39 @@ footer div {
 }
 
 @media only screen and (max-width: 600px) {
-	img {
+	/*img {
 		width: 330px;
 		height: 350px;
+
+	}*/
+	.header {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		flex-grow: 1;
+		padding: 5px;
+		border: solid 1px;
+		background-image: url("/Nono1.jpeg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		min-height: 250px;
+		width: auto;
+		border-radius: 3px;
+	}
+	.about {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		flex-grow: 1;
+		width: 60vw;
+		height: auto;
+		align-items: center;
+		font-size: 1.0rem;
+		padding: 100px 10px 10px 10px;
+		color: white;
+	}
+	.about p {
+		text-align: center;
 	}
   }
   

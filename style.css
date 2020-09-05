@@ -35,8 +35,8 @@
 	align-items: center;
 	font-size: 2.0rem;
 	padding: 400px 100px 100px 100px;
-	color: white;
-	opacity: 60%;
+	color: rgb(204, 230, 93);
+	opacity: 90%;
 }
 .about p {
 	text-align: center;
@@ -184,12 +184,18 @@ footer div {
 		padding: 150px 10px 10px 10px;
 		color: white;
 		font-size: large;
-		opacity: 70%;
+		color: rgb(213, 238, 101);
+		opacity: 90%;
 	}
 	.about p {
 		text-align: center;
 	}
-	
+	.Elon {
+		color: white;
+		background-color: tomato;
+		opacity: 80%;
+		border-radius: 20px;
+	}
   }
   
 

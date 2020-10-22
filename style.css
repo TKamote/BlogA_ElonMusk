@@ -31,7 +31,9 @@
 }
 .item1 p {
 	color: aqua;
+	font-weight: 700;
 	font-size: 30px;
+	opacity: .6;
 }
 .item2 {
 	display: grid;
@@ -240,7 +242,7 @@ li {
 	box-sizing: border-box;
 }
 
-@media screen and (max-width: 370px) {
+@media screen and (max-width: 600px) {
 	.container {
 		background-color:transparent;
 		/*margin: 0 10px;*/

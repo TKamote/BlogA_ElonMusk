@@ -3,218 +3,205 @@
 	padding: 0px;
     font-family: 'Noto Sans JP', sans-serif;
 }
-.container {
-	display: flex;
-	flex-direction: column;
-	margin: .5em;	
+:root {
+    --primary-pink:hsl(322, 100%, 66%);
+    --very-pale-cyan: hsl(193, 100%, 96%);
+    --very-dark-cyan: hsl(192, 100%, 9%);
+    --grayish-blue: hsl(208, 11%, 55%);
+    --item-box: 30px 10px 30px 60px;
+    --item-sub-box: 20px;
 }
-.header {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	flex-grow: 1;
-	padding: 10px;
-	background-image: url("/Nono1.jpeg");
+.container {
+	display: grid;
+	box-sizing: border-box;
+	
+}
+.item1 {
+	box-sizing: border-box;
+	display: grid;
+	grid-template-columns: 1;
+	background-image: url("Nono1.jpeg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	min-height: 450px;
 	width: auto;
 	border-radius: 10px;
+	align-content: flex-end;
+	justify-items: center;
 }
-.about {
-	display: flex;
-	flex-direction: column;
-	flex-wrap: wrap;
-	flex-grow: 1;
-	width: 60vw;
+.item1 p {
+	color: aqua;
+	font-size: 30px;
+}
+.item2 {
+	display: grid;
+	grid-template-columns: 6fr 4fr;
+	box-sizing: border-box;
+	width: 95%;
 	height: auto;
-	align-items: center;
-	font-size: 2.0rem;
-	padding: 400px 100px 100px 100px;
-	color: rgb(204, 230, 93);
-	opacity: 90%;
+	margin: 20px auto;
+	border: solid 1px red;
 }
-.about p {
-	text-align: center;
-}
-.me {
-	font-size: 1.5em;
-}
-ul li {
+.item2-1 {
+	display: grid;
+	grid-template-columns: 1fr;
+	box-sizing: border-box;
 	align-content: center;
-}
-img {
-	width: 35vw;
+	width: 100%;
 	height: auto;
+	padding: 30px 30px 30px 15px;	
 }
-.Nono1 {
-	display: flex;
-	border-radius: 20%;
-	padding: 20px 10px 10px 10px;
+.moat-business li {
+	color: black;
+	font-size: 18px;
+	font-weight: 500;
 }
-.moat {
+li {
+	list-style: none;
+}
+.item2-2 {
 	display: grid;
-	grid-template-columns: 1fr 1fr;
-	padding: 10px;
-	background-color: #ffffff;
+	box-sizing: border-box;
+	align-content: center;
+	width: 100%;
+    height: auto;
 }
-.moat-content {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	flex-grow: 1;
-	width: 58vw;
+.item2-2 img {
+	width: 100%;
+    height: auto;
+}
+
+.item3 {
+	display: grid;
+    grid-template-columns: 4fr 6fr;
+    box-sizing: border-box;
+    width: 95%;
 	height: auto;
+	margin: 20px auto;
+	border: solid 1px rgb(82, 7, 105);
+}
+.item3-1 {
+    display: grid;
+    box-sizing: border-box;
+    align-content: center;
+	width: 100%;
+	height: auto;	
+}
+.item3-1 img {
+    box-sizing: border-box;
+    width: 100%;
+}
+.item3-2 {
+    display: grid;
+    box-sizing: border-box;
+    align-content: center;
+	width: 100%;
+	height: auto;
+	padding: 30px 30px 30px 15px;	
+}
+.item4 {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	box-sizing: border-box;
+	width: 95%;
+	height: auto;
+	margin: 20px auto;
+	border: solid 1px rgb(82, 7, 105);
+}
+.item4-1 {
+	display: grid;
+	box-sizing: border-box;
+	background-color: #ee1c1c;
 	padding: 10px;
 }
-.moat-content ul li {
-	padding-left: 10px;
-	list-style-type: none;
+.item4-2 {
+	display: grid;
+	box-sizing: border-box;
+	padding: 10px;
+	background-color: #c2a6f0;
 }
-.revenue {
+.item4-3 {
+	display: grid;
+	box-sizing: border-box;
+	background-color: #6ad341;
+	padding: 10px;
+}
+.item5 {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	box-sizing: border-box;
+	width: 95%;
+	height: auto;
+	margin: 20px auto;
+	border: solid 1px rgb(29, 23, 31);
+}
+.item5-1 {
+	display: grid;
+	box-sizing: border-box;
+	background-color: #aae6bc;
+	padding: 10px;
+}
+.item5-2 {
+	display: grid;
+	box-sizing: border-box;
+	background-color: #e98585;
+	padding: 10px;
+}
+.item5-3 {
+	display: grid;
+	box-sizing: border-box;
+	background-color: #6e7772;
+	padding: 10px;
+}
+.item6 {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	box-sizing: border-box;
+	width: 95%;
+	height: auto;
+	margin: 20px auto;
+	border: solid 1px rgb(29, 23, 31);
+}
+.item6-1 {
+	display: grid;
+	box-sizing: border-box;
+	background-color: #aae6bc;
+	padding: 10px;
+}
+.item6-2 {
+	display: grid;
+	box-sizing: border-box;
+	background-color: #e98585;
+	padding: 10px;
+}
+.item6-3 {
+	display: grid;
+	box-sizing: border-box;
+	background-color: #6e7772;
+	padding: 10px;
+}
+.item7 {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
-	padding: 10px;
-	background-color: #ffffff;
+	box-sizing: border-box;
+	width: 95%;
+	height: auto;
+	margin: 20px auto;
+	border: solid 1px rgb(82, 7, 105);
 }
-.revenue-content {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	flex-grow: 1;
-	padding: 10px;
-}
-
-.revenue-content ul li {
-	padding-left: 10px;
-	list-style-type: none;
-}
-.main_content {
+.item7-1 {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-	padding-left: 10px;
-	padding: 10px;
-	background-color: #ffffff;
+	box-sizing: border-box;
+	background-color: #deeee3;
+	padding: 10px;	
 }
-.main_content ul li {
-	padding-left: 10px;
-	list-style-type: none;
-}
-.others {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	flex-grow: 1;
-	width: 45vw;
-	padding: 10px;
-}
-.top10FUD {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	flex-grow: 1;
-	width: 45vw;
-	padding: 10px;
-}
-.notable-articles {
-
-}
-.milestone {
+.item7-2 {
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
-}
-.product-milestone {
-
-}
-.market-cap {
-
-}
-.bottome-line {
-
-}
-.independent-influencers {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-}
-.youtubers {
-
-}
-.Twitterers {
-
-}
-.growth-drivers {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-}
-.acquisitions {
-
-}
-.other-articles {
-
-}
-
-.moat-business, .revenue-source, .Top-10, .Other-Elon {
-	font-size: 1.2rem;
-	font-weight: bolder;
-	padding: 10px 0;
-}
-footer div {
+	box-sizing: border-box;
+	background-color: #989c9a;
 	padding: 10px;
-	border: solid 1px;
-	background-color: #ffffff;
 }
-/*
-@media only screen and (max-width: 600px) {
-	.Nono2 {
-		display: flex;
-		border-radius: 20%;
-		padding: 3px;
-		width: 330px;
-		height: 300px;
-	}
-	.Nono3 {
-		display: flex;
-		border-radius: 20%;
-		padding: 3px;
-		width: 330px;
-		height: 360px;
-	}
-
-	.header {
-		display: flex;
-		flex-direction: row;
-		flex-wrap: wrap;
-		flex-grow: 1;
-		padding: 5px;
-		background-image: url("/Nono1.jpeg");
-		background-repeat: no-repeat;
-		background-size: cover;
-		min-height: 250px;
-		width: auto;
-		border-radius: 3px;
-	}
-	.about {
-		display: flex;
-		flex-direction: column;
-		flex-wrap: wrap;
-		flex-grow: 1;
-		width: 60vw;
-		height: auto;
-		align-items: center;
-		font-size: 1.0rem;
-		padding: 150px 10px 10px 10px;
-		color: white;
-		font-size: large;
-		color: rgb(213, 238, 101);
-		opacity: 90%;
-	}
-	.about p {
-		text-align: center;
-	}
-	.Elon {
-		color: white;
-		background-color: tomato;
-		opacity: 80%;
-		border-radius: 20px;
-	}
-  }*/
+.item8 {
+	display: grid;
+	box-sizing: border-box;
+}

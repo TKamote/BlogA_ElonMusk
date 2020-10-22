@@ -240,10 +240,10 @@ li {
 	box-sizing: border-box;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 370px) {
 	.container {
 		background-color:transparent;
-		margin: 0 10px;
+		/*margin: 0 10px;*/
 	}
 	.item1 {
 		/*grid-template-columns: 1fr;
@@ -267,11 +267,6 @@ li {
 	.item2-1 {
 		padding: 20px;	
 	}
-	/*.moat-business li {
-		color: black;
-		font-size: 18px;
-		font-weight: 500;
-	}*/
 	.item2-2 {
 
 	}

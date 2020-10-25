@@ -287,6 +287,12 @@ li {
 	.container {
 		background-color:transparent;
 	}
+	.twitter {
+		position: fixed;
+		top: 0;
+		right: 2px;
+		border: 50%;
+	}
 	.item1 {
 		align-content: flex-end;
 		justify-items: center;

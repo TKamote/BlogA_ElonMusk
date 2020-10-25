@@ -17,6 +17,17 @@
 	background-color: rgb(245, 242, 247);
 	max-width: 1440px;
 	line-height: 1.5em;
+	position: relative;
+}
+.twitter {
+	position: fixed;
+	top: 0;
+	right: 30px;
+	border: 50%;
+}
+.twitter img {
+	border-radius: 50%;
+	margin: 2px;
 }
 .item1 {
 	box-sizing: border-box;
@@ -89,7 +100,6 @@ li {
 	height: auto;
 	border-radius: 10px;
 }
-
 .item3 {
 	display: grid;
     grid-template-columns: 4fr 6fr;
@@ -107,6 +117,8 @@ li {
     align-content: center;
 	width: 100%;
 	height: auto;	
+	background-color: var(--very-dark-cyan);
+	border-radius: 10px;
 }
 .item3-1 img {
     box-sizing: border-box;
@@ -120,6 +132,9 @@ li {
 	width: 100%;
 	height: auto;
 	padding: 30px;	
+	background-color: var(--very-dark-cyan);
+	color: whitesmoke;
+	border-radius: 10px;
 }
 .item4 {
 	display: grid;
@@ -199,19 +214,27 @@ li {
 	display: grid;
 	box-sizing: border-box;
 	border-radius: 5px;
-	background-color: var(--gray-background);
+	/*background-color: var(--gray-background);*/
 	box-shadow: var(--white-box-shadow);
 	padding: 10px;
+	background-color: hsl(195, 38%, 18%);
+	color: whitesmoke;
+}	
+.item6-1 a {
+	color: wheat;
 }
 .item6-2 {
 	display: grid;
 	grid-template-columns: 1fr;
 	box-sizing: border-box;
 	border-radius: 5px;
-	background-color: var(--gray-background);
+	/*background-color: var(--gray-background);*/
 	box-shadow: var(--white-box-shadow);
 	padding: 10px;
 	margin: 0 10px;
+	background-color: var(--very-dark-cyan);
+	color: whitesmoke;
+
 }
 .item6-22 {
 	display: grid;
@@ -223,9 +246,12 @@ li {
 	display: grid;
 	box-sizing: border-box;
 	border-radius: 5px;
-	background-color: var(--gray-background);
+	/*background-color: var(--gray-background);*/
 	box-shadow: var(--white-box-shadow);
 	padding: 10px;
+	background-color: hsl(247, 39%, 27%);
+	color: whitesmoke;
+	
 }
 .item7 {
 	display: grid;
@@ -234,6 +260,7 @@ li {
 	width: 95%;
 	height: auto;
 	margin: 10px auto;
+	
 }
 .item7-1 {
 	display: grid;
@@ -256,18 +283,11 @@ li {
 	box-sizing: border-box;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 640px) {
 	.container {
 		background-color:transparent;
-		/*margin: 0 10px;*/
 	}
 	.item1 {
-		/*grid-template-columns: 1fr;
-		background-image: url("Nono1.jpeg");
-		background-repeat: no-repeat;
-		background-size: cover;
-		min-height: 450px;
-		width: auto;*/
 		align-content: flex-end;
 		justify-items: center;
 	}
@@ -374,6 +394,9 @@ li {
 	.item8 {
 		display: grid;
 		box-sizing: border-box;
+	}
+	footer {
+		padding: 20px;
 	}
 
 }

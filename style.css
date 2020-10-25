@@ -18,6 +18,7 @@
 	max-width: 1440px;
 	line-height: 1.5em;
 	position: relative;
+	margin: 0 100px;
 }
 .twitter {
 	position: fixed;
@@ -37,7 +38,7 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	min-height: 450px;
+	min-height: 600px;
 	width: auto;
 	align-content: flex-end;
 	justify-items: center;
@@ -78,7 +79,7 @@
 	font-size: 1.2em;
 	font-weight: 600;
 	padding-top: 8px;
-	padding-bottom: 4px;
+	padding-bottom: 8px;
 }
 .moat-business li {
 	color: black;
@@ -160,6 +161,17 @@ li {
 	box-shadow: var(--white-box-shadow);
 	padding: 10px;
 	margin: 0 10px;
+	width: 100%;
+	height: auto;
+}
+.head-brain img {
+	width: 30%;
+	height: auto;
+	float: left;
+}
+.about-spacex, .neuralink {
+	font-size: 13px;
+	color: var(--very-dark-cyan);
 }
 .item4-3 {
 	display: grid;
@@ -168,6 +180,19 @@ li {
 	background-color: var(--gray-background);
 	box-shadow: var(--white-box-shadow);
 	padding: 10px;
+	width: 100%;
+	height: auto;
+}
+.item4-3 img {
+	width: 60%;
+	height: auto;
+	float: right;
+	box-sizing: border-box;
+	margin-left: 10px;
+}
+.prufrock {
+	font-size: 13px;
+	color: var(--very-dark-cyan);
 }
 .item5 {
 	display: grid;
@@ -253,6 +278,10 @@ li {
 	color: whitesmoke;
 	
 }
+.all-acquistion {
+	font-size: 13px;
+	color: violet;
+}
 .item7 {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
@@ -282,10 +311,21 @@ li {
 	display: grid;
 	box-sizing: border-box;
 }
-
+footer {
+	padding: 30px 0 30px 100px;
+}
+/* to not squeeze the screen when transitioning to 640px screen */
+@media screen and (max-width: 940px) {
+	.container {
+		background-color:transparent;
+		margin: 0 1px;
+	}
+}
+/* small screen view */
 @media screen and (max-width: 640px) {
 	.container {
 		background-color:transparent;
+		margin: 0 1px;
 	}
 	.twitter {
 		position: fixed;
@@ -341,10 +381,17 @@ li {
 	.item4-2 {
 		padding: 20px;	
 		margin: 0 0;
+		background-color: #dad3d3;
 	}
 	.item4-3 {
 		padding: 20px;	
 		margin: 0 0;
+		background-color: #aaa4a4;	
+	}
+	.item4-3 img {
+		box-sizing: border-box;
+		border-radius: 20px;
+		margin-left: 20px;
 	}
 	/*.item5 {
 		grid-template-columns: 1fr;
